@@ -1,0 +1,9 @@
+id usuario
+Nombre 
+Apellidos 
+Correo electronico
+Contraseña
+Estudia
+Ultimo cargo
+Empresa más reciente
+Qué buscas
