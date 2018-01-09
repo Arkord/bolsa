@@ -2,8 +2,9 @@ id usuario
 Nombre 
 Apellidos 
 Correo electronico
-Contraseña
+ContraseÃ±a
 Estudia
 Ultimo cargo
-Empresa más reciente
-Qué buscas
+Empresa mÃ¡s reciente
+QuÃ© buscas
+Prueba
