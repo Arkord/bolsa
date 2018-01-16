@@ -26,6 +26,72 @@
 
 		<!-- Theme Custom CSS -->
 		<link rel="stylesheet" href="{{URL::asset('css/css/custom.css')}}">
+		
+<header id="header">
+				<div class="container">
+					<div class="logo">
+						<a href="index.html">
+							<img alt="Portal vinculación y empleo" width="200" height="80" data-sticky-width="150" data-sticky-height="59" src="img/logoVE.png">
+						</a>
+					</div>
+					<div class="search">
+						<form id="searchForm" action="page-search-results.html" method="get">
+							<div class="input-group">
+								<input type="text" class="form-control search" name="q" id="q" placeholder="Buscar..." required>
+								<span class="input-group-btn">
+									<button class="btn btn-default" type="submit"><i class="fa fa-search"></i></button>
+								</span>
+							</div>
+						</form>
+					</div>
+					<nav>
+						<ul class="nav nav-pills nav-top">
+							<li>
+								<a href="http://dad.com.mx"><i class="fa fa-angle-right"></i>DAD software</a>
+							</li>
+							<li>
+								<a href="#"><i class="fa fa-angle-right"></i>Contacto</a>
+							</li>
+							<li class="phone">
+								<span><i class="fa fa-phone"></i>(618) 456-7890</span>
+							</li>
+						</ul>
+					</nav>
+					<button class="btn btn-responsive-nav btn-inverse" data-toggle="collapse" data-target=".nav-main-collapse">
+						<i class="fa fa-bars"></i>
+					</button>
+				</div>
+				<div class="navbar-collapse nav-main-collapse collapse">
+					<div class="container">
+						<ul class="social-icons">
+							<li class="facebook"><a href="http://www.facebook.com/" target="_blank" title="Facebook">Facebook</a></li>
+							<li class="twitter"><a href="http://www.twitter.com/" target="_blank" title="Twitter">Twitter</a></li>
+						</ul>
+						<nav class="nav-main mega-menu">
+							<ul class="nav nav-pills nav-main" id="mainMenu">
+								<li class="portal-menu">
+									<a data-hash href="#inicio">Inicio</a>
+								</li>
+								<li class="portal-menu" data-menu="">
+									<a data-hash href="#proceso">Proceso</a>
+								</li>
+								<li class="portal-menu">
+                                    <a data-hash href="#servicios">Servicios</a>
+								</li>
+								<li class="portal-menu">
+									<a data-hash href="#registro">Empresas</a>
+								</li>
+								<li class="portal-menu">
+									<a data-hash href="#registro">Aspirantes</a>
+								</li>
+								<li class="portal-menu">
+									<a data-hash href="#footer">Contacto</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</header>
 <div class="container">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
